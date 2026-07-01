@@ -1,0 +1,14 @@
+**TC_01** Verify users are able to login using the correct credentials 
+**TC_02** Verify the user cannot login with old credentials 
+**TC_03** Verify if the credentails are wrong an error message is visible 
+**TC_04** Verify the password is masked for security purpose 
+**TC_05** Verify the functionality of the forgot password option 
+**TC_06** Verify the email field should accept the new id and not the previous id 
+**TC_07** Verify the otp is sent correctly to the provided email id only 
+**TC_08** Verify that only the current otp is accepted and not the expired otp
+**TC_09** Verify that if the new and confirm password are not matching then there is an error visible 
+**TC_10** Verify if user clicks on login multiple times the app or website does not get crashed or freeze
+**TC_11** Verify that user cannot login efficiently if there is no network
+**TC_12** Verify that user can login with the new credentials efficiently after logging out 
+**TC_13** Verify that user can generate only 5 otps per hour (Depends on business requirement)
+**TC_14** Verify that the login page layout is properly formatted across all devices and browsers.
