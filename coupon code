@@ -1,0 +1,43 @@
+TC_01 Verify user can use the coupon code efficiently 
+
+Tc_02 Verify user can apply the coupon only after the conditions are met 
+
+TC_03 Verify the apply code box supports only 12 alphanumeric characters (Depends upon business requirements)
+
+TC_04 Verify if user enters the wrong code or expired code an error message is visible 
+
+TC_05 Verify if user clicks on apply code the price changes as expected 
+
+TC_06 Verify the code gets applied or not incase of cash on delivery format (Depends upon business requirements )
+
+TC_07 Verify when user clicks on apply code multiple times the website or app does not get freezed 
+
+TC_08 Verify duplicate codes are not getting applied ( Important one to prevent duplicacy)
+
+TC_09 Verify in the check out the actual and discounted price is visible 
+
+TC_10 Verify the discounted price is only deduceted from users balance( In case of cod depends on buiness requirements )
+
+TC_11 Verify the actual and discounted price is visible on the invoice 
+
+TC_12 Verify the discount does not get applied if there is a network disruption 
+
+TC_13 Verify user can apply codes 3 times per session ( Depends upon business requirements)
+
+TC_14 Verify if user wants to apply code more than 3 times the code does not get applied 
+
+TC_15 Verify the functionality when user tries to apply through incognito mode 
+
+TC_16 Verify can user apply through multiple devices at same time 
+
+TC_17 Verify if user logs out and then again logs in using different account can he /she apply the code 
+
+TC_18 Verify if the discounted price is actually visible correctly across all devices and browsers 
+
+TC_19 Verify if user simultaneously logs out from both devices and logs in with new account in both devices is the coupon getting applied .
+
+
+SCENARIO 2 : THE API PART 
+ 1. If the user bypasses the ui limit completely , 400 bad request should be visible due to wrong data validation
+
+ 2. In this condition first i will verify the limit , then check the request body , is the correct limit provided , is the llimit kept empty , if limit is correct then check the response, the response time , the response body , the payload and the error coming in postman console, another thing is that i will check if the backend has some propblem with data validation or not , record all this, log this and then report it to the developer . 
