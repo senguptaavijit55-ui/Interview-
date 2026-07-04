@@ -1,0 +1,27 @@
+TC_01 Verify the functionnality of the 'Apply coupon' button
+
+TC_02 Verify clicking on the apply coupon button multiple times does not freeze or crash the app 
+
+TC_03 Verify the coupon is not applied if there is not network 
+
+TC_04 Verify the coupon field accepts 12 alphanumeric characters ( not less than that or not more than that )
+
+TC_05 Verify the coupon is applicable for the whole catalog as well as for cash on delivery users 
+
+TC_06 Verify the coupon gets active only after certain conditions are met ( Like orders above 1000 or equal to 1000)
+
+TC_07 Verify the discount amount is only 20 percent and not more than that or less than that ( Depends upon business requirements )
+
+TC_08 Verify the coupon does not get applied if it has expired 
+
+TC_09 Verify users cannot apply multiple coupons at a time (can apply coupons one at  time)
+
+TC_10 Verify the discounted price is visible after coupon gets applied 
+
+TC_11 Verify only the discounted price gets deducted from the users bank account 
+
+TC_12 Verify the discounted price and the actual price is visible both in checkout and invoice .
+
+TC_13 Verify if a coupon has been applied through laptop then user cannot apply the same through their phone 
+
+TC_14 Verify the coupon apply is limited to only one per user and not more than that 
